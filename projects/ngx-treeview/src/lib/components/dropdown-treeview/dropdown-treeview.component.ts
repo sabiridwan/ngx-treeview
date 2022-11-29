@@ -30,7 +30,7 @@ export class DropdownTreeviewComponent {
   }
 
   onSelectedChange(values: any[]): void {
-    this.buttonLabel = this.i18n.getText(this.treeviewComponent?.selection);
+    //this.buttonLabel = this.i18n.getText(this.treeviewComponent?.selection);
     this.selectedChange.emit(values);
   }
 
